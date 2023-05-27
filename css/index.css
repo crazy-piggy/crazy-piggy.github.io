@@ -1,0 +1,41 @@
+body {
+	font-family: Times New Roman, monospace;
+}
+
+table {
+	font-family: Times New Roman, monospace;
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+td {
+	text-align: center;
+	padding: 3px;
+}
+
+.TextCenter {
+	text-align: center;
+}
+
+.TableCenter {
+	margin: 0 auto;
+}
+
+.SpanCenter {
+	text-align: center;
+	display: block;
+}
+
+.NonDefaultFont {
+	font-size: 32px;
+}
+
+element.style {
+	display: inline-block;
+	transform: scaleX(-1) scaleY(-1);
+}
